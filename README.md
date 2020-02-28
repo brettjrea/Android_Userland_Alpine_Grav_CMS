@@ -1,6 +1,6 @@
 # Android_Userland_Grav_CMS
 
- GravCMS on Android using Userland
+ GravCMS on Android using Alpine on Userland
 
 `apk update`
 
