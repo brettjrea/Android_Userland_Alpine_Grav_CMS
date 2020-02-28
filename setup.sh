@@ -1,7 +1,9 @@
 #!/bin/sh
 
+### switch to superuser
+su -
 ### update repositories
-apk update
+apk update && apk upgrade
 
 ### add git and php
 apk add git php7 php7-curl php7-ctype php7-dom php7-gd php7-json php7-mbstring php7-openssl apk add php7-session php7-simplexml php7-xml php7-zip php7-iconv php7-phar
