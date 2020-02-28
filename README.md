@@ -1,6 +1,8 @@
 # Android_Userland_Alpine_Grav_CMS
 
  GravCMS on Android using Alpine Linux on Userland.
+ 
+ `su -`
 
 `apk update`
 
