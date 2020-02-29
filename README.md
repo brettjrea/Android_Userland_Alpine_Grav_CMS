@@ -8,9 +8,7 @@
 su -
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh
 wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_Grav_CMS/master/setupgrav.sh
-bash fixscripts.sh
-bash setupgrav.sh
-
+bash fixscripts.sh && bash setupgrav.sh
 ```
 
 ## Install by doing what the script does snip by snip.
