@@ -26,6 +26,8 @@ bin/grav install
 ###
 bin/gpm install admin -y
 ###
+bin/gpm install git-sync
+###
 bin/gpm selfupgrade -f
 ###
 bin/gpm update -f
