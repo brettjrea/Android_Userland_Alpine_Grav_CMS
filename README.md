@@ -10,7 +10,7 @@
 
 `bash setup.sh`
 
-## Installing by doing what the script does snip by snip.
+## Install by doing what the script does snip by snip.
 
 `su -`
 
