@@ -31,7 +31,5 @@ bin/gpm install git-sync
 bin/gpm selfupgrade -f
 ###
 bin/gpm update -f
-###
-cd ~/webroot
 ### start php servers 
 php -S localhost:8000 system/router.php
