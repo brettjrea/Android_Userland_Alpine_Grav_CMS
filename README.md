@@ -8,6 +8,8 @@
 
 `wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_Grav_CMS/master/setup.sh`
 
+`bash setup.sh`
+
 ## Installing by doing what the script does snip by snip.
 
 `su -`
