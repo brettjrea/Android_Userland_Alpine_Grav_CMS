@@ -1,8 +1,16 @@
 # Android_Userland_Alpine_Grav_CMS
 
- GravCMS on Android using Alpine Linux on Userland.
+ A set up script and breakdown to install GravCMS on Android using Alpine Linux on Userland. Haven't tested it on Alpine for WSL or VM but probably will work. Docker definitely needs docker specific commands.
  
- `su -`
+ ## Installing quickly with a script.
+ 
+`su -`
+
+`wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_Grav_CMS/master/setup.sh`
+
+## Installing by doing what the script does snip by snip.
+
+`su -`
 
 `apk update`
 
@@ -28,7 +36,7 @@
 
 `bin/grav install`
 
-`bin/gpm install admin`
+`bin/gpm install admin -y`
 
 `bin/gpm selfupgrade -f`
 
