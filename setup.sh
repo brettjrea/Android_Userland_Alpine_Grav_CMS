@@ -1,5 +1,4 @@
 #!/bin/sh
-
 ### switch to superuser
 su -
 ### update repositories
