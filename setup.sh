@@ -1,6 +1,4 @@
 #!/bin/sh
-### switch to superuser
-su -
 ### update repositories
 apk update && apk upgrade
 ### add git and php
@@ -24,7 +22,7 @@ cd ~/grav
 ### install dependecies
 composer install --no-dev -o
 ###
-bin/grav install
+bin/grav install -y
 ###
 bin/gpm install admin
 ###
