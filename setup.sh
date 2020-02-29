@@ -22,9 +22,9 @@ cd ~/grav
 ### install dependecies
 composer install --no-dev -o
 ###
-bin/grav install -y
+bin/grav install
 ###
-bin/gpm install admin
+bin/gpm install admin -y
 ###
 bin/gpm selfupgrade -f
 ###
