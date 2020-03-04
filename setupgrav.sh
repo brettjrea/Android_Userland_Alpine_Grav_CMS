@@ -1,5 +1,5 @@
 #!/bin/sh
-### update repositories
+### update, upgrade & clean.
 apk update && apk upgrade && apk autoremove
 ### add git and php
 apk add git php7 php7-curl php7-ctype php7-dom php7-gd php7-json php7-mbstring php7-openssl php7-session php7-simplexml php7-xml php7-zip php7-iconv php7-phar
@@ -13,19 +13,19 @@ php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 ### clone grav repo 
 git clone -b master https://github.com/getgrav/grav.git
-###
+### move to grav directory
 cd ~/grav
 ### install dependecies
 composer install --no-dev -o
-### install grav
+### run grav install
 bin/grav install
-### install grav admin
+### install grav admin panel
 bin/gpm install admin -y
 ### install git-sync
 bin/gpm install git-sync
-### upgrade
+### check for grav upgrade
 bin/gpm selfupgrade -f
-### update
+### check for updates to plugins and themes
 bin/gpm update -f
-### start php servers 
+### start php built-in server with router.php 
 php -S localhost:8000 system/router.php
