@@ -21,11 +21,11 @@ bash fixscripts.sh && bash setupgrav.sh
 
 `apk update && apk upgrade && apk autoremove`
 
-### Install Git and PHP.
+### Install git and php.
 
 `apk add git php7 php7-curl php7-ctype php7-dom php7-gd php7-json php7-mbstring php7-openssl php7-session php7-simplexml php7-xml php7-zip php7-iconv php7-phar`
 
-### Fix Git.
+### Fix git.
 
 `git config --global http.sslverify "false"`
 
@@ -41,7 +41,7 @@ bash fixscripts.sh && bash setupgrav.sh
 
 `mv composer.phar /usr/local/bin/composer`
 
-### Clone grav from Github.
+### Clone grav from github.
 
 `git clone -b master https://github.com/getgrav/grav.git`
 
@@ -61,7 +61,7 @@ bash fixscripts.sh && bash setupgrav.sh
 
 `bin/gpm install admin -y`
 
-### Install Git-Sync.
+### Install git-sync.
 
 `bin/gpm install git-sync`
 
