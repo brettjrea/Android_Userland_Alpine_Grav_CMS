@@ -1,8 +1,8 @@
-# Android_Userland_Alpine_Grav_CMS
+## Android_Userland_Alpine_Grav_CMS
 
- A setup script and breakdown to install GravCMS on Android using Alpine Linux in the [Userland App](https://github.com/CypherpunkArmory/UserLAnd). Haven't tested it on Alpine for WSL or VM but probably would work. Docker definitely needs docker specific commands.
+A setup script and breakdown to install GravCMS on Android using Alpine Linux in the [Userland App](https://github.com/CypherpunkArmory/UserLAnd). Haven't tested it on Alpine for WSL or VM but probably would work. Docker definitely needs docker specific commands.
  
- ## Installing quickly with a script.
+## Installing quickly with a script.
  
 ```
 su -
