@@ -20,13 +20,13 @@ bash fixscripts.sh && bash setupgrav.sh
 ### Update, upgrade & clean.
 
 ```
-apk update && apk upgrade && apk autoremove`
+apk update && apk upgrade && apk autoremove
 ```
 
 ### Install git and php.
 
 ```
-apk add git php7 php7-curl php7-ctype php7-dom php7-gd php7-json php7-mbstring php7-openssl php7-session php7-simplexml php7-xml php7-zip php7-iconv php7-phar`
+apk add git php7 php7-curl php7-ctype php7-dom php7-gd php7-json php7-mbstring php7-openssl php7-session php7-simplexml php7-xml php7-zip php7-iconv php7-phar
 ```
 
 ### Fix git.
@@ -40,14 +40,14 @@ git config --global http.sslverify "false"
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === 'e0012edf3e80b6978849f5eff0d4b4e4c79ff1609dd1e613307e16318854d24ae64f26d17af3ef0bf7cfb710ca74755a') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php`
-php -r "unlink('composer-setup.php');"`
-mv composer.phar /usr/local/bin/composer`
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+mv composer.phar /usr/local/bin/composer
 ```
 ### Clone grav from github.
 
 ```
-git clone -b master https://github.com/getgrav/grav.git`
+git clone -b master https://github.com/getgrav/grav.git
 ```
 
 ### Move into grav directory.
