@@ -15,9 +15,7 @@ bash fixscripts.sh && bash setupgrav.sh
 
 ### Switch to root.
 
-```
-su -
-```
+`su -`
 
 ### Update, upgrade & clean.
 
@@ -54,44 +52,32 @@ git clone -b master https://github.com/getgrav/grav.git`
 
 ### Move into grav directory.
 
-```
-cd ~/grav`
-```
+`cd ~/grav`
 
 ### Use composer to install dependecies.
 
-```
-composer install --no-dev -o`
-```
+`composer install --no-dev -o`
+
 
 ### Run grav installer.
 
-```
-bin/grav install`
-```
+`bin/grav install`
+
 ### Install grav admin panel.
 
-```
-bin/gpm install admin -y`
-```
+`bin/gpm install admin -y`
 
 ### Install git-sync.
 
-```
-bin/gpm install git-sync`
-```
+`bin/gpm install git-sync`
 
 ### Check for grav upgrade.
 
-```
-bin/gpm selfupgrade -f`
-```
+`bin/gpm selfupgrade -f`
 
 ### Check for theme plugin updates.
 
-```
-bin/gpm update -f`
-```
+`bin/gpm update -f`
 
 ### Start PHP built-in webserver with router.php.
 
